@@ -6,10 +6,7 @@ body{
     
     
 }
-* {
-  box-sizing: border-box;
- 
-}
+
 ul {
     list-style-type: none;
     margin: 8px;
@@ -202,7 +199,10 @@ ul {
     
    
   }
-  
+  * {
+    box-sizing: border-box;
+   
+  }
   .column {
     float: left;
     width: 25%;
@@ -220,7 +220,9 @@ ul {
 
 
   #aboutus {
-    background-color: #000;
+   
+    background-color: rgb(234,234,234);
+    clear: both;
   }
   
   .foots {
