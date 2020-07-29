@@ -1,0 +1,285 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    margin: 0;
+   
+    
+    
+}
+* {
+  box-sizing: border-box;
+ 
+}
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden;
+    background-color: #fff;
+   
+  }
+
+  
+  li {
+    float: right;
+    margin-right: 10px;
+   
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+/*   
+  li a:hover:not(.active) {
+    background-color: #1bbce4;
+  } */
+  
+  .active {
+    color: #1bbce4;
+    
+  }
+  a:hover {
+    color: #1bbce4;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("https://www.tmdcitsolutions.com/wp-content/uploads/sites/4/2020/05/header-V2.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    
+    width: 1080px; 
+    margin: auto;
+
+  }
+  .serv {
+    margin: 14px;
+    float: left;
+    width: 330px;
+    
+  }
+
+  .serv img {
+    width: 100%;
+    height: auto;
+   
+  }
+
+  .serv a{
+    color: white; 
+    text-decoration: none; 
+    font-size: large; 
+    font-weight: lighter;
+   
+  }
+  .learn{
+    padding: 16px;
+    background-color: rgb(29, 205, 228);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 77px;
+    width: 130px;
+    margin-bottom: 40px;
+   
+   
+  }
+  .name {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    text-align: left;
+  }
+  .desc {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+  }
+  #navbar {
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  #about{
+  
+        background-color: blue;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      
+
+  }
+
+  .aboutus {
+    margin: 14px;
+    float: left;
+    width: 520px;
+    
+    
+  }
+  .aboutus a{
+    color: white; 
+    text-decoration: none; 
+    font-size: large; 
+    font-weight: lighter;
+   
+  }
+  .aboutus img{
+
+    height: auto;
+    float: right;
+
+  }
+  .aboutdesc {
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: lighter;
+    text-align: left;
+  }
+
+  
+  .meet{
+    padding: 14px;
+    background-color: rgb(29, 205, 228);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 150px;
+    margin-bottom: 40px;
+   
+   
+  }
+
+  .tech {
+    margin: 12px;
+    float: left;
+    width: 330px;
+  }
+
+  .tech img {
+    width: 110%;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+   
+  }
+
+  .stack {
+    margin: 14px;
+    float: left;
+    width: 240px;
+  }
+
+  .stack img {
+    width: 100%;
+    height: auto;
+    
+   
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 6px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   
+  
+
+
+  #aboutus {
+    background-color: #000;
+  }
+  
+  .foots {
+    margin: 14px;
+    float: left;
+    width: 330px;
+   
+    
+  }
+  .footsdesc {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+  }
+  .footsdesc a{
+    font-size: 16px;
+   
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: left;
+  }
+  .footsname {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #81A8CF;
+    margin-bottom: 10px;
+  }
+  .footcons {
+    width: 1080px;
+    margin: auto;
+
+  }
+  .footer {
+   
+    position: relative;
+    background-color: #2B4269;
+    height: 70px;
+    margin-top: -100px;
+    clear: both;
+ }
+ .footer p{
+   
+  padding-top: 25px;
+  padding-left: 150px;
+  color: #81A5AC;
+}
+.footer p span{
+color: white;
+font-weight:lighter;
+}
+.footer i{
+  color: #81A5BF;
+  float: right;
+  padding-right: 10px;
+  
+  }
+  i:hover{
+    color: white;
+  }
